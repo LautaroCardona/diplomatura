@@ -52,6 +52,7 @@ nav ul li a {
 }
 
 main {
+
     position: absolute;
     overflow: hidden;
 }
@@ -83,6 +84,13 @@ main div p {
     line-height: 35px;
 }
 
+aside {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
 div aside {
     position: relative;
     float: right;
@@ -91,9 +99,18 @@ div aside {
     background-color: rgb(145, 5, 5);
 }
 div aside p{
-    font-family: 'Orbitron';
-    color: rgb(255, 251, 251);
-    font-size: 90 px;
-    font-weight: 90;
-    margin-left: 30px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 35px;
+}
+div aside li{
+    padding-top: 55px ;
+    padding-bottom: 0px;
 }
