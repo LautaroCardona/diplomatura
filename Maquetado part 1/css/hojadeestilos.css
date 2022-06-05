@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgb(50, 49, 49);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Orbitron';
+    color: rgb(255, 251, 251);
+    font-size: 90 px;
+    font-weight: 90;
+    margin-left: 30px;
+    padding-bottom: 50px;
+
+}
+
+nav {
+    font-family: 'Orbitron';
+    word-spacing: 20px;
+    font-size: larger;
+    background-color: rgb(230, 53, 53);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+main p {
+background-image: url("img/main-index.JPG");
+}
