@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	</head>
+	
+	<body style="text-align: center; margin-top: 10%;">
+		
+		
+		<button onclick = "gfg_Run()" style="height: 100px; width: 100px;">
+			aqui para que sea amarillo
+		</button>
+
+
+        <button onclick = "gfg_Run1()" style="height: 100px; width: 100px;">
+			aqui para que sea azul
+		</button>
+
+
+        <button onclick = "gfg_Run2()" style="height: 100px; width: 100px;">
+			aqui para que sea rojo
+		</button>
+
+
+		
+		<p id = "GFG_DOWN" style =
+			"color:green; font-size: 20px; font-weight: bold;">
+		</p>
+		
+		<script>
+			var el_up = document.getElementById("GFG_UP");
+			var el_down = document.getElementById("GFG_DOWN");
+			var str = "Click on button to change the background color";
+		
+			el_up.innerHTML = str;
+		
+			function changeColor(color) {
+				document.body.style.background = color;
+			}
+			
+			function gfg_Run() {
+				changeColor('yellow');
+			}		
+
+            function gfg_Run1() {
+				changeColor('blue');
+			}	
+
+
+            function gfg_Run2() {
+				changeColor('red');
+			}
+
+
+            
+		</script>
+	</body>
+</html>					
