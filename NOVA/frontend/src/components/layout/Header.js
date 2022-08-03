@@ -1,5 +1,11 @@
+import React from 'react';
 const Header = (props) => {
     return (
-        <div>este es el Header</div>);
+        <header>
+        <div className = "holder"> 
+        <img src="imagenes/nova.png" width="350" alt="nova"/>
+        </div>
+        </header>
+    );
 }
 export default Header;
