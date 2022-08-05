@@ -11,6 +11,14 @@ body {
     background-size: 100%;
 }
 
+header {
+ 
+    background-color: #1b0b87;
+}
+
+
+
+
 .img div {
     margin-left: 20%;
 }
@@ -192,7 +200,7 @@ footer .col2 {
 }
 
 @media (min-width: 768px) {
-    .boton {}
+
 
 
 }
