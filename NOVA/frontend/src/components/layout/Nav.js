@@ -5,11 +5,11 @@ const Nav = (props) => {
         <nav >
             <div>
                 <ul>
-                /*acardar de mandar las paginas*/
                     <li><Link to="/">Index</Link></li>  
-                    <li><Link to="/">Comics</Link></li>
-                    <li><Link to="/">Literatura</Link></li>
-                    <li><Link to="/">Peliculas</Link></li>
+                    <li><Link to="/Literatura">Literatura</Link></li>
+                    <li><Link to="/Peliculas">Peliculas</Link></li>
+                    <li><Link to="/Comics">Comics</Link></li>
+                    <li><Link to="/Contactos">Contactos</Link></li>
                 </ul>
 
             </div>

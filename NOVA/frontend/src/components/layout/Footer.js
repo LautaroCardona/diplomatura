@@ -12,7 +12,6 @@ const Footer = (props) => {
     </ul>
   </div>
   <div class="col2">
-    <h1></h1>
     <li> </li>
     <li></li>
     <li></li>

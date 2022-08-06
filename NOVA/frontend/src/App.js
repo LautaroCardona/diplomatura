@@ -9,6 +9,7 @@ import Index from './Pages/Index';
 import Comics from './Pages/Comics';
 import Literatura from './Pages/Literatura';
 import Peliculas from './Pages/Peliculas';
+import Contactos from './Pages/Contactos';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="comics" element={<Comics />} />
           <Route path="literatura" element={<Literatura />} />
           <Route path="peliculas" element={<Peliculas />} />
+          <Route path="contactos" element={<Contactos />} />
         </Routes>
       </BrowserRouter>
 
