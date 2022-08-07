@@ -11,12 +11,7 @@ const Footer = (props) => {
       <li> LAUTARO CARDONA</li>
     </ul>
   </div>
-  <div class="col2">
-    <li> </li>
-    <li></li>
-    <li></li>
-    <li>&nbsp;</li>
-  </div>
+  
            </footer>
     );
 }

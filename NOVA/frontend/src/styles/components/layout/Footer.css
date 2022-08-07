@@ -1,0 +1,22 @@
+
+footer {
+
+  background-color: #f42d1b;
+  font-family: 'MuseoModerno';
+  height: 100%;
+  position: absolute x ;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+footer div h1 {
+  color: #ECE7E7;
+  font-size: 17px;
+  padding-left: 5%;
+}
+
+footer div ul {
+  color: #ECE7E7;
+  font-size: 12px;
+  padding-left: 6%;
+}
