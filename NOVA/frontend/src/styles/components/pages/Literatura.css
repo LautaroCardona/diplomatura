@@ -1,0 +1,91 @@
+
+h1 {
+    font-weight: 300;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #F7F5F5;
+}
+
+#myDIV {
+
+    font-family: 'MuseoModerno';
+    height: 40%;
+    margin-top: 10%;
+    height: 33, 3%;
+    display: grid;
+    margin-left: 3%;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    padding-bottom: 6%;
+    margin-bottom: 5%;
+}
+
+#myDIV div {
+    background-color: rgba(136, 1, 1, 0.9);
+    text-align: center;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+#myDIV div h3 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#myDIV div p {
+    line-height: 150%;
+    text-align: justify;
+    color: aliceblue;
+    margin: 30px;
+}
+
+#myDIV div a {
+    color: #ECE7E7;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    background-color: gold;
+    color: red;
+}
+
+
+#myDIV div a:hover {
+    background-color: gold;
+    color: red;
+}
+
+
+
+
+#myDIV .boton {
+    margin-top: 10%;
+    opacity: 100%;
+    color: #ECE7E7;
+    background-color: #f70000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#myDIV .boton {
+    color: #ECE7E7;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 100%;
+}
+
+
+
+
+#myDIV .boton:hover {
+    background-color: gold;
+}
+
+#myDIV .boton:hover {
+    color: red;
+}

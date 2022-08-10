@@ -1,12 +1,16 @@
 import './App.css';
+
+import '././styles/components/pages/Peliculas.css';
+import '././styles/components/pages/Literatura.css';
+import '././styles/components/pages/Index.css';
+import '././styles/components/pages/Comics.css';
+import '././styles/components/pages/Contactos.css';
+
 import '././styles/components/layout/Header.css';
 import '././styles/components/layout/Nav.css';
 import '././styles/components/layout/Footer.css';
-import '././styles/components/pages/Index.css';
-import '././styles/components/pages/Comics.css';
-import '././styles/components/pages/Literatura.css';
-import '././styles/components/pages/Contactos.css';
-import '././styles/components/pages/Peliculas.css';
+
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/layout/Header';

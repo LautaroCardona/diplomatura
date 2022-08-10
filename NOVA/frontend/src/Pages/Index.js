@@ -1,9 +1,10 @@
+import '../styles/components/pages/Index.css';
 const Index = (props) => {
     return (
-        <body>
+        <body class="Index">
   <div class="pantalla">
 
-    <div class="slider">
+    <div class="slider1">
 
       <div class="contexto">
 
